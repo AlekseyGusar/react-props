@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function First(props) {
-  return <li> {props.list[0].text.toLowerCase()} </li>;
+  return <li> {props.list[0]} </li>;
 }
 
 
