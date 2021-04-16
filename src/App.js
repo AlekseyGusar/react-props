@@ -28,7 +28,7 @@ class App extends React.Component {
       <div>
         Some data:
         <ul className="no-bullets">
-          <First key={this.state.list[0].id} text={this.state.list[0].text.toLowerCase()}></First>
+          <First list={this.state.list}></First>
         </ul>
       </div>
     );
